@@ -199,7 +199,40 @@
     .slot-sect-2 img {
         height: auto !important;
         object-fit: cover;
+        margin-top: 20px;
     }
 
 
+}
+
+@media(max-width:776px) {
+    .casion-sect {
+        padding-bottom: 0px;
+        padding-top: 40px;
+    }
+
+    .casinoTitle {
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 39.62px;
+        font-weight: 400;
+        line-height: 64.77px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .casionoDesc {
+        color: white;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 32.57px;
+        margin-bottom: 20px;
+    }
+
+    .casion-sect h2 {
+        color: white;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 46.24px;
+        margin-bottom: 20px;
+    }
 }

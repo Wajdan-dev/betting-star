@@ -199,6 +199,26 @@
         font-size: 18px;
         text-align: center;
     }
+
+    .slotDesc {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 31.57px;
+        color: white;
+        text-align: center;
+        margin-top: 40px;
+        max-width: 940px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .bgBlack p {
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 30.13px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
 }
 
 

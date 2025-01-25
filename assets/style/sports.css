@@ -165,3 +165,25 @@ body {
 
 
 }
+
+@media(max-width: 776px) {
+    .sport-button {
+        width: 233px;
+        height: 42px;
+        background: linear-gradient(#0047AB, #1D71C5);
+        border: none;
+        border-radius: 99px;
+        font-size: 28.01px;
+        line-height: 40.48px;
+        font-family: "Jost", serif;
+        color: white;
+    }
+
+    .sport-sect-1 {
+        padding: 40px 0px;
+        background-image: url('../img/light\ 1.png');
+        background-size: cover;
+        background-position: top;
+    }
+
+}

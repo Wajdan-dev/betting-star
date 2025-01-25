@@ -150,6 +150,12 @@
     border-bottom-right-radius: 6px;
 }
 
+.holdSecLeft3 {
+    height: 436px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
 .holdRight {
     background: #040404;
     border-bottom: 2px solid transparent;

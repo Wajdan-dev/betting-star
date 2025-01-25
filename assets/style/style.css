@@ -85,11 +85,17 @@ li .Blackans {
     font-size: 22px;
     font-weight: 400;
     line-height: 27.5px;
-
+    transition: .3s;
 
 
 
 }
+
+.nav ul li a:hover {
+
+    color: #26FF9A;
+}
+
 
 .nav ul li a.active {
 
@@ -112,7 +118,7 @@ li .Blackans {
     line-height: 31.79px;
     text-align: center;
     text-decoration: none;
-
+    padding: 0px 10px;
 
 }
 

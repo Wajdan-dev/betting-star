@@ -1,0 +1,500 @@
+body {
+    font-family: 'Jost', sans-serif;
+    background: #171717;
+    overflow-x: hidden;
+}
+
+.logo img {
+    max-width: 195px;
+    height: auto;
+    width: 100%;
+}
+
+.Blackans {
+    font-family: 'Black Han Sans', sans-serif;
+
+}
+
+li .Blackans {
+    padding-top: 7px;
+}
+
+.img-container {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.mainElip {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 64px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-container {
+    max-width: 1333px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .custom-container {
+        text-align: center;
+    }
+
+    .custom-container .game {
+        margin-top: 5px;
+    }
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.nav ul li {
+    padding: 0px 33px;
+}
+
+.nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    /* box-shadow: 0px 3px 4.57px 0px #00000040,0px -2px 4.57px 0px #00000054 inset; */
+
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.5px;
+
+
+
+
+}
+
+.nav ul li a.active {
+
+    color: #26FF9A;
+
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 31.79px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.nav ul li a.active.chines {
+
+    color: #26FF9A;
+    font-size: 22px;
+    font-weight: 400 !important;
+    line-height: 31.79px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+.nav ul li a.active::after {
+    content: '';
+    /* Create an empty element after the anchor */
+    position: absolute;
+    bottom: -17px;
+    /* Adjust the distance from the bottom of the link */
+    left: 0;
+    width: 100%;
+    height: 3px;
+    /* Thickness of the bottom border */
+    background-color: #26FF9A;
+    /* Same color as the text */
+}
+
+.laptop img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.main {
+    background-image: url('../img/image\ 1.png');
+    background-size: cover;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.title {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 64.62px;
+    font-weight: 400;
+    line-height: 80.77px;
+    color: white;
+}
+
+.title span {
+    background: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+}
+
+.desc {
+
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 37.57px;
+    color: white;
+    padding: 40px 0px;
+
+}
+
+.bgImg {
+    background-image: url('../img/light\ 1.png');
+    background-size: cover;
+}
+
+.coin {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.rocket {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.sect2 {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-image: url('../img/pngwing.com\ \(1\)\ 1.png');
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btnn {
+
+    font-size: 28.15px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #0047AB 0%, #1D71C5 100%);
+    width: 297.96px;
+    height: 61px;
+    border: none;
+    border-radius: 12px;
+}
+
+.sect3 {
+    background: #040404;
+    box-shadow: 0px 4px 16.6px 0px #0DAF4333;
+    border-bottom: 1px solid transparent;
+    /* Border needs to be transparent for the gradient to show */
+
+    border-image-source: linear-gradient(270deg, #31B03D 0%, #26FF9A 50%, #15AA13 100%);
+    border-image-slice: 1;
+    /* Ensures the gradient is applied to the border */
+}
+
+.desc1 {
+
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 37.57px;
+    box-shadow: 0px 3.34px 3.34px 0px #00000040;
+    color: white;
+
+}
+
+.title2 {
+
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+
+}
+
+.title2 span {
+    background: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+}
+
+.cardd img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cardd p {
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 46.24px;
+    color: white;
+    max-width: 187px;
+    margin: auto;
+    text-align: center;
+}
+
+.sect4 {
+    background-image: url('../img/lines.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.elipse {
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 488px;
+}
+
+.roc img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.title3 {
+    background: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+
+    font-size: 54.77px;
+    font-weight: 400;
+    line-height: 68.46px;
+
+}
+
+.desc3 {
+
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 34.68px;
+    color: white;
+
+
+
+}
+
+.shaded img {
+    max-width: 890px;
+    height: auto;
+    width: 100%;
+
+}
+
+.shaded {
+    background-image: url('../img/backlight.png');
+    background-size: cover;
+    background-position: 25% 8%;
+}
+
+.desc6 {
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 46.24px;
+    color: white;
+
+}
+
+footer {
+    background: #222627;
+    padding: 50px 0px;
+}
+
+.footerDesc {
+
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.footerList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.footerList li {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    color: white;
+
+}
+
+.des7 {
+    color: white;
+    margin-bottom: 0;
+    font-size: 9.5px;
+    font-weight: 400;
+    line-height: 13.73px;
+
+}
+
+.bg2 {
+    padding-bottom: 100px;
+    background-image: url('../img/bg2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sect5 {
+    padding-top: 100px;
+}
+
+.lineSec5 {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -137px;
+    z-index: -1;
+}
+
+@media(min-width:1300) {
+    .nav ul li {
+        padding: 0px 0px;
+    }
+}
+
+@media(max-width:1008px) {
+    .nav ul li a {
+        font-size: 14px;
+    }
+
+
+
+}
+
+@media(max-width:872px) {
+    .title {
+        font-family: 'Black Han Sans', sans-serif;
+        font-size: 56.62px;
+        font-weight: 400;
+        line-height: 60.77px;
+        color: white;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+
+}
+
+/* @media(max-width: 872px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+} */
+
+footer ul li {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 872px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* .topnav.nav {
+        display: block;
+    } */
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .close-nav {
+        display: block !important;
+        position: absolute;
+        z-index: 9999;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        right: 15px;
+    }
+
+    .responsive.nav {
+        display: block !important;
+        position: absolute;
+        background-color: black;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        z-index: 99;
+    }
+
+    .responsive.nav ul {
+        padding-top: 5rem;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 5rem !important;
+        text-align: center !important;
+
+    }
+
+    .responsive.nav ul li a.active::after {
+        height: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        overflow-x: hidden !important;
+    }
+}

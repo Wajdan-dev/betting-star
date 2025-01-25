@@ -1,0 +1,167 @@
+body {
+    overflow-x: hidden;
+}
+
+.sport-sect-1 {
+    padding: 100px 0px;
+    background-image: url('../img/light\ 1.png');
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+.slotDesc {
+
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 37.57px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+
+}
+
+
+.football-section {
+    background-color: #040404;
+
+}
+
+.holdSecLeft {
+    height: 436px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.holdSecLeft2 {
+    height: 436px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.holdRight {
+    background: #040404;
+    border-bottom: 2px solid transparent;
+    border-image-source: linear-gradient(270deg, #31B03D 0%, #26FF9A 50%, #15AA13 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.holdRight h1 {
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 46.24px;
+    color: white;
+
+}
+
+.holdRight p {
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31.79px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.circle-section img {
+    max-width: 100%;
+}
+
+.circle-section p {
+    padding: 10px !important;
+}
+
+.circle-section h5 {
+    background: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+    font-family: "Jost", serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.circle-section p {
+    font-size: 22px;
+    font-family: "Jost", serif;
+    color: #FFFFFF;
+}
+
+
+
+
+.sport-p {
+    background-color: #040404;
+}
+
+.sport-button {
+    width: 248px;
+    height: 62px;
+    background: linear-gradient(#0047AB, #1D71C5);
+    border: none;
+    border-radius: 99px;
+    font-size: 28.01px;
+    line-height: 40.48px;
+    font-family: "Jost", serif;
+    color: white;
+
+}
+
+.sport-section img {
+    border-radius: 6px 0 0 6px;
+}
+
+.sport-section p {
+    font-weight: 400;
+    font-size: 26;
+    line-height: 37.37px;
+    font-family: "Jost", serif;
+    color: white;
+}
+
+.greenBtn {
+    box-shadow: 0px 1.79px 2.39px 0px #000000;
+    box-shadow: 0px 0px 38.1px -7px #00FF005E;
+    border-radius: 9.76px;
+    background: #139441;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 28.01px;
+    font-weight: 900;
+    height: 50.77px;
+    width: 248px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1120px) {
+    .slot-sect-2 img {
+        height: auto !important;
+        object-fit: cover;
+    }
+
+
+}
+
+@media screen and (max-width: 1120px) {
+    .sport-section img {
+        height: auto !important;
+        object-fit: cover;
+    }
+
+
+}

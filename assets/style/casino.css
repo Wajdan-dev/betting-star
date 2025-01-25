@@ -1,0 +1,205 @@
+.greenBtn {
+    box-shadow: 0px 1.79px 2.39px 0px #000000;
+    box-shadow: 0px 0px 38.1px -7px #00FF005E;
+    border-radius: 9.76px;
+    background: #139441;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 28.01px;
+    font-weight: 900;
+    height: 50.77px;
+    width: 248px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bgBlack2 {
+    background: #040404;
+    border-bottom: 2px solid transparent;
+    border-image-source: linear-gradient(270deg, #31B03D 0%, #26FF9A 50%, #15AA13 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    min-height: 730px;
+    display: flex;
+    align-items: center;
+}
+
+.bgBlack2 h1 {
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 31.79px;
+    ;
+    text-decoration-skip-ink: none;
+    color: white;
+
+}
+
+.bgBlack2 p {
+
+
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 31.79px;
+    color: white;
+    margin-bottom: 30px;
+
+
+
+}
+
+.betting2 {
+    height: 756px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.betting {
+    height: 480px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.bgBlack {
+    background: #040404;
+    border-bottom: 2px solid transparent;
+    border-image-source: linear-gradient(270deg, #31B03D 0%, #26FF9A 50%, #15AA13 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+}
+
+.bgBlack h1 {
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 31.79px;
+    ;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.bgBlack p {
+
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31.79px;
+    color: white;
+    margin-bottom: 30px;
+
+
+
+}
+
+.casion-sect {
+    padding: 100px 0px;
+}
+
+.casinoTitle {
+    font-family: 'Black Han Sans', sans-serif;
+
+    font-size: 64.62px;
+    font-weight: 400;
+    line-height: 80.77px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.casionoDesc {
+    color: white;
+
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 37.57px;
+    margin-bottom: 20px;
+
+}
+
+.casion-sect h2 {
+    color: white;
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 46.24px;
+    margin-bottom: 20px;
+
+}
+
+.gradient {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: -80px;
+    z-index: -1;
+}
+
+
+/* hold  */
+
+.holdSecLeft {
+    height: 436px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.holdRight {
+    background: #040404;
+    border-bottom: 2px solid transparent;
+    border-image-source: linear-gradient(270deg, #31B03D 0%, #26FF9A 50%, #15AA13 100%);
+    border-image-slice: 1;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.holdRight h1 {
+
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 46.24px;
+    color: white;
+
+}
+
+.holdRight p {
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31.79px;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+.first {
+    max-width: 348px;
+    width: 100%;
+}
+
+.second {
+    max-width: 596px;
+    width: 100%;
+}
+
+.third {
+    max-width: 348px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1120px) {
+    .slot-sect-2 img {
+        height: auto !important;
+        object-fit: cover;
+    }
+
+
+}
